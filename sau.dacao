@@ -1,0 +1,10 @@
+# Função que faz a saudação
+def saudacao(nome):
+    frase = f"Olá, {nome}! Bem-vindo(a)!"  # Cria a frase com o nome
+    return frase  # Devolve a frase pronta
+
+# Pergunta o nome da pessoa e guarda na variável
+nome_usuario = input("Qual seu nome? ")
+
+# Chama a função passando o nome e mostra o resultado na tela
+print(saudacao(nome_usuario))
