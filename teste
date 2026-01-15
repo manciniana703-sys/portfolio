@@ -1,0 +1,5 @@
+def saudacao (Brenda):
+  frase = f"ola, {Brenda} bem vinda!
+return frase
+  nome_usuario = input("qual seu nome?")
+print (saudacao (nome_usuario))
