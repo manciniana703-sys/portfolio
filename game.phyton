@@ -1,0 +1,22 @@
+# Perguntas
+livro = input("Como é seu nome? ")
+percy = input("Escolha entre Annabeth, Nico di Angelo ou piper: ")
+raio = int(input("Escolha o nível de poder (5, 8, 3, 7): "))
+cristal = input("Você lutará com Medusa! Digite 'ok' pra continuar: ")
+
+# Frase (corrigida)
+frase = f"Olá, {livro}, você escolheu {percy} e seu poder é {raio}. Continue assim!"
+
+print(frase)
+
+# Luta
+if raio == 5:
+    print(f"Haha, Medusa ganhou de {percy}. Você perdeu!")
+elif raio == 3:
+    print(f"Este na verdade vale mil! Parabéns, {livro}. Próxima fase!")
+elif raio == 8:
+    print(f"Uau! Vocês empataram, {livro}!")
+elif raio == 7:
+    print(f"Parabéns! Você ganhou de Medusa com {percy}. Até a próxima!")
+else:
+    print("Valor inválido de poder.")
