@@ -1,0 +1,5 @@
+nome = input("Digite seu nome de guerreira mágica: ")
+
+poder = len(nome)
+
+print(f"Seu nome tem {poder} letras… isso significa que seu nível de magia é {poder}!")
